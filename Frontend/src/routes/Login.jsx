@@ -1,17 +1,15 @@
 import React, { useState } from "react";
 import ShowEye from "../assets/ShowEye.png";
 import HideEye from "../assets/HideEye.png";
-
 import { Link } from "react-router-dom";
-import NavBar from "../components/NavBar";
+
 
 const Login = () => {
   const [toggleEye, setToggleSet] = useState("password");
 
   return (
     <>
-    <NavBar/>
-    <div class="flex min-h-full flex-col justify-center align-middle px-6 py-12 lg:px-8">
+    <div class="flex min-h-screen flex-col justify-center align-middle px-6 py-12 lg:px-8">
       <div
         aria-hidden="true"
         className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]"

@@ -24,8 +24,8 @@ const NavBar = () => {
                 </Link>
               </li>
               <li className="block p-1 font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900">
-                <Link to={"/about"} className="flex items-center">
-                  About Us
+                <Link to={"/upcoming"} className="flex items-center">
+                  Upcoming Items
                 </Link>
               </li>
             </ul>

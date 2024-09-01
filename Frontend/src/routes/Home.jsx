@@ -7,12 +7,10 @@ import Footer from '../components/Footer.jsx'
 const Home = () => {
   return (
     <>
-    <NavBar/>
     <HeroSection/>
     <hr />
     <ContentSection  operator={"live"}/>
     <ContentSection  operator={"upcoming"}/>
-    <Footer/>
     </>
   )
 }

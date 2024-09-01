@@ -10,7 +10,6 @@ export default function Example() {
 
   return (
     <>
-    <NavBar/>
     <div className="isolate bg-white px-6 py-24 sm:py-20 lg:px-8">
       <div
         aria-hidden="true"
