@@ -1,12 +1,17 @@
 import React from 'react'
 import NavBar from '../components/NavBar.jsx'
+import HeroSection from '../components/HeroSection.jsx'
+import ContentSection from '../components/ContentSection.jsx'
 
 const Home = () => {
   return (
     <>
     <NavBar/>
-    
-    {/* <div>Home</div> */}
+    <HeroSection/>
+    <hr />
+    <ContentSection  operator={"live"}/>
+    <ContentSection  operator={"upcoming"}/>
+
     </>
   )
 }
