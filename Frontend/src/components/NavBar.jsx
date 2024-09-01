@@ -8,7 +8,7 @@ const NavBar = () => {
           to={"/"}
           className="mr-4 block cursor-pointer font-sans font-bold text-2xl leading-relaxed text-inherit antialiased"
         >
-          Auction Hub
+          AuctionHub
         </Link>
         <div className="flex items-center gap-4">
           <div className="hidden mr-4 md:block">
